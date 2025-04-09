@@ -60,6 +60,21 @@
       font-size: 1.1em;
       color: white;
       margin-top: 5px;
+    } .team-links {
+      margin-top: 20px;
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+    }
+    .team-links img {
+      width: 50px;
+      height: 50px;
+      object-fit: contain;
+      background-color: transparent;
+      transition: transform 0.2s;
+    }
+    .team-links img:hover {
+      transform: scale(1.1);
     }
     nav {
       text-align: center;
@@ -108,7 +123,18 @@
   <header>
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Pittsburgh_Steelers_logo.svg/512px-Pittsburgh_Steelers_logo.svg.png" alt="Steelers Logo" />
     <h1>The Delusional Steelers Fan</h1>
-    <div class="subtitle">Refreshed weekly</div>
+    <div class="subtitle">Refreshed weekly. Affiliate Sites Below</div>
+    <div class="team-links">
+      <a href="https://thedelusionaljetsfan.com" title="The Delusional Jets Fan">
+        <img src="https://upload.wikimedia.org/wikipedia/en/6/6b/New_York_Jets_logo.svg" alt="Jets" />
+      </a>
+      <a href="https://thedelusionalcowboysfan.com" title="The Delusional Cowboys Fan">
+        <img src="https://a.espncdn.com/i/teamlogos/nfl/500/dal.png" alt="Cowboys" />
+      </a>
+      <a href="https://thedelusionalsteelersfan.com" title="The Delusional Steelers Fan">
+        <img src="https://a.espncdn.com/i/teamlogos/nfl/500/pit.png" alt="Steelers" />
+      </a>
+    </div>
   </header>
 
   <nav>
